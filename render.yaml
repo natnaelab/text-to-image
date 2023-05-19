@@ -1,7 +1,7 @@
 databases:
-  - name: txt-to-image
-    databaseName: txt-to-image
-    user: txt-to-image
+  - name: ttidb
+    databaseName: ttidb
+    user: ttidb_user
 
 services:
   - type: web
