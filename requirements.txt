@@ -1,6 +1,7 @@
 anyio==3.6.2
 APScheduler==3.6.3
 asgiref==3.6.0
+Brotli==1.0.9
 cachetools==4.2.2
 certifi==2023.5.7
 charset-normalizer==2.0.12
@@ -23,3 +24,4 @@ tornado==6.3.2
 typing_extensions==4.5.0
 tzlocal==5.0.1
 urllib3==1.26.15
+whitenoise==6.4.0
