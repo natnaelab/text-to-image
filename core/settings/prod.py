@@ -14,7 +14,7 @@ DATABASES = {
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://postgres:qentw2I1IMETPZ4@text-to-image-db.flycast:5432'
+        default=os.getenv("DATABASE_URL")
     )
 }
 
