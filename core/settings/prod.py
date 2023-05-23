@@ -3,7 +3,7 @@ import dj_database_url, os
 
 DEBUG = False
 
-ALLOWED_HOSTS = [""]
+ALLOWED_HOSTS = ["text-to-image-production.up.railway.app"]
 
 DATABASES = {
     'default': {
