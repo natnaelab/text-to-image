@@ -12,11 +12,6 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': dj_database_url.config(
-#         default=os.getenv("DATABASE_URL")
-#     )
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -27,6 +22,8 @@ DATABASES = {
         'PORT': os.getenv("PGPORT"),
     }
 }
+
+INSTALLED_APPS.append("whitenoise.runserver_nostatic")
 
 MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
 
