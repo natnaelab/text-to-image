@@ -8,5 +8,3 @@ HANDLERS_LIST = [
     [start_handler, help_handler]
 ]
 
-
-#   DATABASE_URL=postgres://text_to_image:FabYuX9ylioDudN@text-to-image-db.flycast:5432/text_to_image?sslmode=disable
