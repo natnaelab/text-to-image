@@ -3,4 +3,4 @@ from telegram.ext import CallbackContext
 
 
 def start_handler(update: Update, context: CallbackContext):
-    pass
+    update.message.reply_text('hello')

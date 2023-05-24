@@ -22,6 +22,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    'bot',
+    
     'tgbs',
 ]
 
@@ -101,3 +103,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 SITE_ADDRESS = os.getenv("SITE_ADDRESS")
+BOT_APP = "bot"
