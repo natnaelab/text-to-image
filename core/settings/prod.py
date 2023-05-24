@@ -1,5 +1,4 @@
 from .base import *
-import dj_database_url, os
 
 DEBUG = False
 
@@ -27,6 +26,4 @@ INSTALLED_APPS.append("whitenoise.runserver_nostatic")
 
 MIDDLEWARE.insert(1, 'whitenoise.middleware.WhiteNoiseMiddleware')
 
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
