@@ -13,5 +13,6 @@ class BaseModel(models.Model):
 class User(BaseModel):
     tid = models.CharField(max_length=50)
     is_banned = models.BooleanField(default=False)
+    is_active = models.BooleanField(default=True)
     message_count = models.PositiveIntegerField(default=1)
     last_message_at = models.DateTimeField(default=timezone.now)
