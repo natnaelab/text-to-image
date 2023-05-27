@@ -10,11 +10,9 @@ I'm here to help you transform your text into beautiful images! Simply type in y
 
 To get started, follow these steps:
 
-1️⃣ Type your desired text.
+1️⃣ Type your desired text by appending /img command in front.
 2️⃣ Wait a moment while I create a custom image just for you.
 3️⃣ Once the image is ready, I'll send it right back to you!
-
-If you have any questions or need assistance, feel free to ask! Now go ahead and let your imagination run wild with words! 🚀
 
 Type /help if you need more information about how to use this bot.
 
