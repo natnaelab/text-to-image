@@ -23,5 +23,8 @@ tbb @ git+https://github.com/natnaelab/tbb.git@2b259b21d58a33f73b6cd06eb8c8ff36a
 tornado==6.3.2
 typing_extensions==4.5.0
 tzlocal==5.0.1
-urllib3==1.26.15
 whitenoise==6.4.0
+beautifulsoup4==4.11.1
+colorama==0.4.4
+urllib3==1.26.9
+httpx
