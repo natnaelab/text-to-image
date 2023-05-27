@@ -1,10 +1,10 @@
 from telegram import Update
-from telegram.ext import CallbackContext, DispatcherHandlerStop
+from telegram.ext import CallbackContext, DispatcherHandlerStop, MessageHandler, Filters
 from bot.models import User
 from django.utils import timezone
 
 
-def middleware_handler(update: Update, context: CallbackContext):
+def middleware(update: Update, context: CallbackContext):
     msg_text = ""
     try: msg_text = update.message and update.message.text
     except: raise DispatcherHandlerStop
@@ -33,3 +33,6 @@ def middleware_handler(update: Update, context: CallbackContext):
             raise DispatcherHandlerStop
         else:
             User(tid=user.id).save()
+
+
+middleware_handler = MessageHandler(Filters.all, middleware)
